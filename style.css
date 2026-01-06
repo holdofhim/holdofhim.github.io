@@ -956,12 +956,20 @@ footer {
 .cv-inline {
     color: var(--accent-color);
     font-weight: 600;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 3px;
+    text-decoration: none;
 }
 
 .cv-inline:hover {
+    color: var(--accent-hover);
+}
+
+.kdi-inline {
+    color: var(--accent-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.kdi-inline:hover {
     color: var(--accent-hover);
 }
 
